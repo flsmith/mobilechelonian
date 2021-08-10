@@ -3,7 +3,7 @@ define(['nbextensions/mobilechelonianjs/paper', "@jupyter-widgets/base"], functi
     function TurtleDrawing(canvas_element, grid_button, help_button) {
         this.points = [];
         this.canvas = canvas_element;
-        this.canvas.style.background = '#99CCFF';
+        this.canvas.style.background = '#EBEBEB';
         paper.setup(this.canvas);
         
         /* adds grid for user to turn off / on, helps see what the turtle is doing */
